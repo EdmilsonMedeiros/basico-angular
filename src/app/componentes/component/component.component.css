@@ -1,0 +1,18 @@
+h1{
+    color: red;
+}
+.title{
+    background-color: #242323;
+    color: #00ffff;
+    padding: 1em;
+}
+p{
+    padding: 5px;
+}
+.teste-aqui{
+    padding: 1em;
+    background-color: #dfdbdb;
+    color: #242323;
+    margin-top: 1em;
+    border-radius: 1em;
+}

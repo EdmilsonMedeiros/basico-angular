@@ -1,0 +1,15 @@
+<div class="class">
+    <h2>Two way DataBinding</h2>
+    <form action="">
+        <input type="text" [(ngModel)]="name" name="name" placeholder="Digite seu nome!">
+        <input type="submit" value="Enviar">
+    </form>
+
+    <p *ngIf="name != null">O nome é: {{ name }}</p>
+
+    <form action="">
+        <input type="text" [(ngModel)]="outraCoisa" name="name" placeholder="Digite OUTRA COISA!">
+        <input type="submit" value="Enviar" (click)="alertCoisa(outraCoisa)">
+    </form>
+    <p *ngIf="outraCoisa != null">Outra coisa: {{ outraCoisa }}</p>
+</div>

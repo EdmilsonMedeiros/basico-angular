@@ -1,0 +1,13 @@
+<div class="class">
+    <h2 class="title">Nome: <span style="color:#be0606;">{{ name }}</span></h2>
+    <p>Idade: <span style="color:#be0606;">{{ idade }}</span></p>
+    <p>Profissão: <span style="color:#be0606;">{{ job }}</span></p>
+    <p>Hobbies: <span style="color:#be0606;">{{ hobbies[0] }}</span></p>
+    <p>Carros: <span style="color:#be0606;">{{ car.name }} - {{ car.year }}</span></p>
+    <div>
+        <a href="#">Lorem Ipsum</a>
+    </div>
+    <div class="teste-aqui" *ngFor="let item of minhaLista">
+        {{ item }} <br>
+    </div>
+</div>
